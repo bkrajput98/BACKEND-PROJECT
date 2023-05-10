@@ -1,0 +1,34 @@
+{
+  "name": "reunion-backend-assignment",
+  "version": "1.0.0",
+  "description": "social media platform api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/AdityaSolanki189/reunion-backend-assignment.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "mongo"
+  ],
+  "author": "Aditya Solanki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/AdityaSolanki189/reunion-backend-assignment/issues"
+  },
+  "homepage": "https://gitlab.com/AdityaSolanki189/reunion-backend-assignment#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3"
+  }
+}
